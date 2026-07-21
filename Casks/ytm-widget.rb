@@ -1,12 +1,12 @@
 cask "ytm-widget" do
-  version "1.0.3"
+  version "1.0.4"
 
   if Hardware::CPU.intel?
     url "https://github.com/kizato1018/ytm-widget/releases/download/v#{version}/ytm-widget_#{version}_x64.dmg"
-    sha256 "2c5f32d734a16b0640930b584d1f1243045c76412664ccc0d6cd4fa5384b886b"
+    sha256 "dead2676bd9909c25653fb94cc6f533cf2320a6b1beab1895b1f212661d8311c"
   else
     url "https://github.com/kizato1018/ytm-widget/releases/download/v#{version}/ytm-widget_#{version}_aarch64.dmg"
-    sha256 "f70ec1ea963e60fc0cf2ed8fac9cdc1955d274ff0490e93ea1ad0fc69b64c675"
+    sha256 "6adf0430ce2792b12e8c0bdacbd1b9b0026d67cbaf590c04b7ed7816f11328c4"
   end
 
   name "YTM Widget"
